@@ -4,7 +4,7 @@ Welcome to Liri, Siri's less useful cousin. Liri is a command line input app tha
 
 Enter any of these intuitive commands for more information on whatever you input:
 
- * `concert-this '<artist name here>`
+ * `concert-this '<artist name here>'`
 
  * `spotify-this-song '<song name here>'`
 
