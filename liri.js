@@ -28,6 +28,10 @@ if (command === "concert-this") {
 	getConcert();
 }
 
+if (command === "do-what-it-says") {
+	doWhatitSays();
+}
+
 function getMovie() {
 	axios.get(queryUrl).then(function(response) {
 		console.log("--------------------");
@@ -95,4 +99,29 @@ function spotifySongSign() {
 		.catch(function(err) {
 			console.log(err);
 		});
+}
+
+function doWhatitSays() {
+	fs.readFile("random.txt", "utf8", function(error, data) {
+		if (error) {
+			return console.log(error);
+		}
+
+		var dataArr = data.split(",");
+
+		if (dataArr[0] === "movie-this") {
+			userInput = dataArr[1];
+			getMovie();
+		}
+
+		if (dataArr[0] === "spotify-this-song") {
+			userInput = dataArr[1];
+			spotifySong();
+		}
+
+		if (dataArr[0] === "concert-this") {
+			userInput = dataArr[1];
+			getConcert();
+		}
+	});
 }
