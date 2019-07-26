@@ -15,5 +15,5 @@ Enter any of these intuitive commands for more information on whatever you input
 And with the free utility graciously granted by Spotify and IMDB, corresponding information will follow any of your commands.
 Concert-this provides venue, date, and location of any (living) touring artist. Spotify-this-song gives the artist, album, and spotify link to the song. Movie-this queries plot to actors to rating, etc. Do-what-it-says will read from any saved line of text from a text file.
 
-![alt text](./liri-node-app/movie-this liri.gif)
+![alt text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
