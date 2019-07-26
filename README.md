@@ -13,7 +13,16 @@ Enter any of these intuitive commands for more information on whatever you input
  * `do-what-it-says` (takes from random.txt, executing the first complete line it reads)
 
 And with the free utility graciously granted by Spotify and IMDB, corresponding information will follow any of your commands.
-Concert-this provides venue, date, and location of any (living) touring artist. Spotify-this-song gives the artist, album, and spotify link to the song. Movie-this queries plot to actors to rating, etc. Do-what-it-says will read from any saved line of text from a text file.
+Concert-this provides venue, date, and location of any (living) touring artist. Spotify-this-song gives the artist, album, and spotify link to the song. Movie-this queries plot to actors to rating, etc. Do-what-it-says will read from any saved line of text from the random.txt file which can be edited.
 
-![alt text](https://media.giphy.com/media/YnxHan5vJMDi9kXSTX/giphy.gif)
+### H3 Concert 
 
+![alt text](https://media.giphy.com/media/eIlUlpY7lDfvSSpqgS/giphy.gif)
+
+### H3 Movie 
+
+![alt text](https://media.giphy.com/media/MF09q5wxDPNsVz3IDD/giphy.gif)
+
+### H3 Spotify 
+
+![alt text](https://media.giphy.com/media/QVIfICrOSD5ImIK8X7/giphy.gif)
